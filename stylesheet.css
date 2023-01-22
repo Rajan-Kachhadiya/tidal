@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 2%;
+}
+.allfont {
+    font-size: 16px;
+    color: #696969;
+    padding: 15px 0;
+}
+
+/* header */
+.headerbox1 .wrapper {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerbox1 .part1 {
+    display: flex;
+}
+.headerbox1 .part1 a{
+    color: #696969;
+    transition-duration: 0.5s;
+}
+.headerbox1 .part1 a:hover{
+    color: #7c9c37;
+}
+.headerbox1 .part2 {
+    display: flex;
+    position: relative;
+}
+.headerbox1 .part2 a{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+.headerbox1 .part2 .searchbox {
+    width: 250px;
+    height: 31px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.headerbox1 .part2 .bgicon{
+    background-color: black;
+    color: #e1e1e1;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition-duration: 0.5s;
+}
+.headerbox1 .part2 .bgicon:hover{
+    background-color: #ee802f;
+}
+.headerbox2 {
+    border-bottom: 4px solid #7c9c37;
+    background-color: #222222;
+}
+.headerbox2 .wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.headerbox2 .part1 img {
+    padding: 25px;
+    width: 250px;
+}
+.headerbox2 .part2 ul{
+    display: flex;
+}
+.headerbox2 .part2 ul li{
+    padding: 25px;
+    list-style-type: none;
+    display: inline-block;
+}
+.headerbox2 .part2 ul li a{
+    color: white;
+    transition-duration: 0.5s;
+}
+.headerbox2 .part2 ul li a:hover {
+    color: #7c9c37;
+}
+
+/* section */
+
+/* sectionbox2 */
+section .sectionbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .sectionbox2 .wrapper h1{
+    color: #333333;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+/* sectionbox3 */
+section .sectionbox3 .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+section .sectionbox3 .part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section .sectionbox3 .part1 img{
+    width: 250px;
+}
+section .sectionbox3 .part1 .allfont {
+    padding: 19px;
+    background-color: #f0f0f0;
+    width: 250px;
+}
+section .sectionbox3 .part1 h3{
+    padding-bottom: 10px;
+    color: #7c9c37;
+}
+
+/* sectionbox4 */
+section .sectionbox4 {
+    width: 100%;
+}
+.sectionbox4 .sectionbox_inner {
+    display: flex;
+    flex-wrap:wrap;
+}
+section .sectionbox4 .main1{
+    width: 50%;
+}
+section .sectionbox4 .main1 .part1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .sectionbox4 .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+section .sectionbox4 .title h3 {
+    color: #666666;
+    padding: 5px;
+}
+section .sectionbox4 .title p{
+    color: #7c9c37;
+}
+section .sectionbox4 .main1 .part1 .box1 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+section .sectionbox4 .main1 .part1 .box1 img{
+    float: left;
+    width: 100px;
+    padding: 20px 0;
+}
+section .sectionbox4 .main1 .part1 .box1 .allfont {
+    padding: 20px 15px;
+}
+section .sectionbox4 .main1 .part1 .box1 h4 {
+    color: #7c9c37;
+}
+
+section .sectionbox4 .main2{
+    width: 50%;
+}
+section .sectionbox4 .main2 .part2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    padding: 20px 0;
+}
+section .sectionbox4 .main2 .part2 .box1 img {
+    width: 300px;
+}
+section .sectionbox4 .main2 .part2 .box2 img {
+    width: 300px;
+}
+section .sectionbox4 .main2 .part2 p{
+    color: #7c9c37;
+}
+
+/* sectionbox5 */
+section .sectionbox5 {
+    background-color: #222222;
+    border-bottom:2px solid black;
+}
+section .sectionbox5 .sectionbox5_inner {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+section .sectionbox5 .box1 {
+    width: 25%;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+section .sectionbox5 .box1 img {
+    padding: 15px 0;
+    height: 150px;
+}
+section .sectionbox5 .box1 p {
+    color: #7c9c37;
+    padding: 10px 0;
+}
+section .sectionbox5 .box2 {
+    padding-right: 50px;
+    width: 25%;
+    padding-top: 20px;
+}
+section .sectionbox5 .box2 hr {
+    margin-bottom: 5px;
+}
+section .sectionbox5 .box2 a{
+    color: #7c9c37;
+}
+section .sectionbox5 .box2 p {
+    padding: 5px 0;
+}
+section .sectionbox5 .box3 {
+    padding-right: 50px;
+    width: 25%;
+    padding-top: 20px;
+}
+section .sectionbox5 .box3 p{
+    padding: 10px 0;
+    color: #7c9c37;
+}
+section .sectionbox5 .box4 {
+    width: 25%;
+    padding-top: 20px;
+}
+section .sectionbox5 .box4 address span a {
+    color: #7c9c37;
+}
+section .sectionbox5 .box4 form input {
+    width: 250px;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 7px;
+}
+section .sectionbox5 .box4 form button {
+    background-color: #7c9c37;
+    border: none;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 5px 0;
+    transition-duration: 0.5s;
+}
+section .sectionbox5 .box4 form button:hover{
+    background-color: #546633;
+}
+section .sectionbox5 .box4 form button a{
+    color: white;
+}
+
+/* footer */
+footer .footerbox {
+    background-color: #222222;
+}
+
+footer .footerbox .wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width:1024px){
+
+    .headerbox2 .part1 img{
+        width: 160px;
+    }
+    .headerbox2 .part2 ul li a{
+        font-size: 12px;
+    }
+    section .sectionbox2 .wrapper h1 {
+        font-size: 25px;
+    }
+    section .sectionbox3 .part1 img {
+        width: 150px;
+    }
+    section .sectionbox3 .part1 h3 {
+        font-size: 12px;
+    }
+    section .sectionbox3 .part1 p {
+        font-size: 10px;
+    }
+    section .sectionbox3 .part1 .allfont {
+        width: 150px;
+    }
+    section .sectionbox4 .main1 .part1 .box1{
+        width: 100%;
+    }
+    section .sectionbox4 .main1 .part1 .box1 h4 {
+        padding: 10px 0;
+    }
+    section .sectionbox4 .main2 .part2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .sectionbox4 .main2 .part2 .box1 img {
+        width: 200px;
+    }
+    section .sectionbox4 .main2 .part2 .box2 img {
+        width: 200px;
+    }
+}
+
+@media (max-width:768px){
+    section .sectionbox5 .box1{
+        width: 50%;
+        border-bottom: 2px solid;
+    }
+    section .sectionbox5 .box2{
+        border-bottom: 2px solid;
+        width: 50%;
+    }
+    section .sectionbox5 .box3{
+        width: 50%;
+    }
+    section .sectionbox5 .box4{
+        width: 50%;
+    }
+    .headerbox2 .part2 ul li {
+        padding: 10px;
+    }
+    section .sectionbox2 .wrapper h1 {
+        font-size: 20px;
+    }
+}
+@media (max-width:476px){
+    .headerbox1 .part1 {
+        flex-direction: column;
+    }
+    .headerbox2 .part1 img {
+        width: 150px;
+        padding: 15px;
+    }
+    .allfont{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .headerbox1 .part2 .searchbox {
+        width: 180px;
+    }
+   .headerbox2 .part2 ul li {
+        padding: 5px 5px;
+    }
+    .headerbox2 .part2 ul li a {
+        font-size: 12px;
+    }
+    .headerbox2 .part2 ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    section .sectionbox2 .wrapper h1 {
+        font-size: 13px;
+        padding: 20px;
+    }
+    section .sectionbox3 .part1{
+        width: 50%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    section .sectionbox4 .title h3 {
+        font-size: 12px;
+    }
+    section .sectionbox4 .title p {
+    font-size: 12px;
+    }
+    section .sectionbox4 .main1 .part1 .box1 img{
+        width: 70px;
+    }
+    section .sectionbox4 .main2 .part2 .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    section .sectionbox4 .main2 .part2 .box2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    section .sectionbox5 .box1 {
+        padding-right: 15px;
+    }
+    section .sectionbox5 .box2 {
+        padding-right: 15px;
+    }
+    section .sectionbox5 .box3 {
+        padding-right: 15px;
+    }
+    section .sectionbox5 .box4 {
+        padding-right: 15px;
+    }
+    section .sectionbox5 .box4 form input {
+        width: 200px;
+    }
+}
+
+
+@media(max-width:360px){
+    .headerbox1 .part2 .searchbox {
+        width: 135px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .allfont {
+        font-size: 10px;
+        padding: 3px 0;
+    }
+    .headerbox2 .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerbox2 .part1 img {
+        width: 100px;
+        padding: 10px;
+    }
+    .headerbox2 .part2 ul li {
+        padding: 2px;
+        text-align: center;
+    }
+    .headerbox2 .part2 ul li a {
+        font-size: 8px;
+    }
+    .headerbox2 .part2 ul li a div {
+        padding: 1px 0;
+    }
+    .headerbox1 .part2 .bgicon{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    }
+    section .sectionbox2 .wrapper h1 {
+        font-size: 8px;
+        padding: 12px;
+    }
+    section .sectionbox3 .wrapper {
+        padding: 10px;
+    }
+    section .sectionbox3 .part1 img {
+        width: 120px;
+    }
+    section .sectionbox3 .part1 .allfont {
+        width: 120px;
+        padding: 8px;
+    }
+    section .sectionbox4 .main1 .part1 .box1{
+        flex-direction: column;
+    }
+    section .sectionbox4 .main1 .part1 .box1 img {
+        padding: 10px;
+    }
+    section .sectionbox4 .main1 .part1 .box1 .allfont{
+        padding: 0;
+    }
+    section .sectionbox4 .main1 .part1 .box1 h4 {
+        padding: 5px 0;
+    }
+    section .sectionbox4 .main2 .part2 .box1 img {
+        width: 115px;
+    }
+    section .sectionbox4 .main2 .part2 .box2 img {
+        width: 115px;
+    }
+    section .sectionbox4 .title {
+        padding-right: 0;
+    }
+    section .sectionbox4 .title h3 {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    section .sectionbox4 .title p {
+        font-size: 9px;
+        padding-right: 10px;
+    }
+    section .sectionbox5 {
+        border-bottom: 1px;
+    }
+    section .sectionbox5 .box1 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box1 p{
+        font-size: 12px;
+    }
+    section .sectionbox5 .box2{
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box2 p {
+        font-size: 12px;
+    }
+    section .sectionbox5 .box3 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box3 p {
+        font-size: 12px;
+    }
+    section .sectionbox5 .box4 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box4 .allfont{
+        font-size: 13px;
+    }
+    footer .footerbox .wrapper {
+        padding: 10px;
+    }
+    footer .footerbox .wrapper .allfont {
+        font-size: 8px;
+    }
+    section .sectionbox5 .box4 form button {
+        padding: 4px;
+    }
+}
+
+@media(max-width:320px){
+    .headerbox1 .part2 .searchbox {
+        width: 135px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .allfont {
+        font-size: 10px;
+        padding: 3px 0;
+    }
+    .headerbox2 .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerbox2 .part1 img {
+        width: 100px;
+        padding: 10px;
+    }
+    .headerbox2 .part2 ul li {
+        padding: 2px;
+        text-align: center;
+    }
+    .headerbox2 .part2 ul li a {
+        font-size: 8px;
+    }
+    .headerbox2 .part2 ul li a div {
+        padding: 1px 0;
+    }
+    .headerbox1 .part2 .bgicon{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    }
+    section .sectionbox2 .wrapper h1 {
+        font-size: 8px;
+        padding: 12px;
+    }
+    section .sectionbox3 .wrapper {
+        padding: 10px;
+    }
+    section .sectionbox3 .part1 img {
+        width: 120px;
+    }
+    section .sectionbox3 .part1 .allfont {
+        width: 120px;
+        padding: 8px;
+    }
+    section .sectionbox4 .main1 .part1 .box1{
+        flex-direction: column;
+    }
+    section .sectionbox4 .main1 .part1 .box1 img {
+        padding: 10px;
+    }
+    section .sectionbox4 .main1 .part1 .box1 .allfont{
+        padding: 0;
+    }
+    section .sectionbox4 .main1 .part1 .box1 h4 {
+        padding: 5px 0;
+    }
+    section .sectionbox4 .main2 .part2 .box1 img {
+        width: 115px;
+    }
+    section .sectionbox4 .main2 .part2 .box2 img {
+        width: 115px;
+    }
+    section .sectionbox4 .title {
+        padding-right: 0;
+    }
+    section .sectionbox4 .title h3 {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    section .sectionbox4 .title p {
+        font-size: 9px;
+        padding-right: 10px;
+    }
+    section .sectionbox5 {
+        border-bottom: 1px;
+    }
+    section .sectionbox5 .box1 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box1 p{
+        font-size: 12px;
+    }
+    section .sectionbox5 .box2{
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box2 p {
+        font-size: 12px;
+    }
+    section .sectionbox5 .box3 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box3 p {
+        font-size: 12px;
+    }
+    section .sectionbox5 .box4 {
+        width: 100%;
+        border-bottom: 2px solid;
+        padding: 15px;
+    }
+    section .sectionbox5 .box4 .allfont{
+        font-size: 13px;
+    }
+    footer .footerbox .wrapper {
+        padding: 10px;
+    }
+    footer .footerbox .wrapper .allfont {
+        font-size: 8px;
+    }
+    section .sectionbox5 .box4 form button {
+        padding: 4px;
+    }
+}
+
